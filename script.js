@@ -3,8 +3,8 @@ function calculateGrade() {
     let result = document.getElementById("result");
 
     if (grade >= 75) {
-        result.textContent = "Passed!";
+       result.textContent = "Congratulations! You Passed!";
     } else {
-        result.textContent = "Failed.";
+       result.textContent = "Sorry, You Failed.";
     }
 }
